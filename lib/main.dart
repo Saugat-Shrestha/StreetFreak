@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:streetfreak/Pages/Home_Page.dart';
-import 'package:streetfreak/Pages/Login/Signup/Login.dart';
+import 'package:streetfreak/Pages/Login/UI/Login.dart';
 
 void main() {
   runApp(const StreetFreak());
@@ -12,7 +12,7 @@ class StreetFreak extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Login(),
+      home: LoginScreen(),
     );
   }
 }
